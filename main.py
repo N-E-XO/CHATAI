@@ -32,6 +32,7 @@ while True:
     confidence = probabilities[best_index]
 
     intent = model.named_steps["classifier"].classes_[best_index]
+    print("DEBUG:", intent, confidence)
 
     if confidence < 0.35:
         print("ChatAI: I don't know that yet. Teach me!")
