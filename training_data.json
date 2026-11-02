@@ -1,0 +1,17 @@
+
+[
+  {"text": "hello", "intent": "greeting"},
+  {"text": "hey there", "intent": "greeting"},
+  {"text": "good morning", "intent": "greeting"},
+  {"text": "how are you", "intent": "greeting"},
+  {"text": "who are you", "intent": "identity"},
+  {"text": "what is your name", "intent": "identity"},
+  {"text": "who created you", "intent": "creator"},
+  {"text": "who made you", "intent": "creator"},
+  {"text": "what is python", "intent": "programming"},
+  {"text": "teach me coding", "intent": "programming"},
+  {"text": "what is machine learning", "intent": "ai"},
+  {"text": "explain artificial intelligence", "intent": "ai"},
+  {"text": "bye", "intent": "goodbye"},
+  {"text": "see you later", "intent": "goodbye"}
+]
